@@ -1,0 +1,246 @@
+$style {
+    name: ''
+    value: {
+
+    }
+}
+
+$ok {
+
+}
+
+$dialog {
+    display: true
+}
+
+$dialog {
+    name: '来'
+}
+
+$dialog {
+    name: {
+        name: {
+
+        }
+        func: {
+
+        }
+    }
+}
+
+name => {
+    if () {
+
+    }
+}
+
+@function {
+    name: name,
+    body: {
+
+    }
+}
+
+$var {
+    name: ok,
+    value: 5
+}
+
+$function {
+    name: 'dialog',
+    content: {
+        $if {
+            exp: $var{store} > ${localhost},
+            then: {
+                @dialog
+                {
+                    name: data.name
+                }
+            },
+            else: {
+                @dialog
+                {
+                    name:
+                }
+            }
+        }
+    }
+    playNext: true
+}
+
+@function {
+    name()
+    content(
+        func[{"selector": 5, "s"}, 2, 3, 4]
+    )
+}
+
+cmd{name(customCmd)body(())}
+
+script (
+    .head {
+        if {
+            exp(5 < 3)
+            then()else()
+        }
+    }
+)
+
+function 植树()
+{
+    if (store > localhost)
+    {
+        dialog({
+
+        });
+    }
+}
+
+$dialog {
+    text: 我不知道
+}
+
+$苏新
+{
+    text: 我不懂，你到底为什么要这么对我。我到底做错了什么。
+}
+
+script{
+    name[1, 2, 3]
+}
+
+dialog {
+    name(苏新)
+    text(我不懂)
+}
+
+command {
+    name(苏新)
+    name[5, 23, 53]
+    body(
+        dialog {
+            name(苏新)
+            text($data)
+        }
+    )
+}
+
+苏新(我不懂，你到底为什么要这么对我。我到底做错了什么)
+苏新{name(我可不想知道什么)}
+default(我可能会死)
+default([来 我可能会死去])
+
+$alias {
+    name: @alias
+    value: @alias
+}
+
+$eval (
+    console.log('Inline javascript');
+    script.play();
+)
+
+$eval {
+
+}
+
+$default
+{
+    这个世界，到底是怎么了？\c
+    无穷无尽的令人作呕的东西:(\p
+    我不清楚为什么我会在这里？
+}
+
+if () {
+    exp(+(left(<{left(5)right(6))})
+    then()
+    else(
+        if()
+    )
+}
+
+@script (
+    you're right
+) you => { if (data.io) {} else {} @script ()
+} while () {} if { then() else(
+
+    )
+}
+
+script('You're right');
+function you(data)
+{
+    if (data.a < data.b)
+    {
+
+    }
+}
+script({
+    name=>{
+
+    }
+})
+
+function you()
+{
+
+}
+
+function if (exp, then, else)
+{
+
+}
+
+if (you)
+{
+
+} else {
+
+}
+
+script()
+
+script {
+    name: 'you',
+    hello: function ()
+    {
+
+    }
+}
+
+if('5 < 6', function ()
+{
+
+}, function ()
+{
+
+});
+
+customCmd =>
+{
+    if (data.a < data.b)
+    {
+        jump()
+    } else
+    {
+
+    }
+}
+
+store {
+    name: {
+
+    },
+    name: {
+
+    }
+}
+
+dialog {
+    name(你好)
+    text(${g.name}laBlaBla)
+}
+
+苏新(你真的以为...)
+
+
