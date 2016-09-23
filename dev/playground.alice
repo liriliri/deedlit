@@ -1,0 +1,29 @@
+// This is comment.
+
+a = 15
+b = 16
+c = "Text"
+d = [5, "15"]
+e = {name: "ok", like: 5}
+e["name"] = "cool"
+e["like"] = "text"
+
+playCool = playVideo
+
+function playVideo(storage, ok, test=5)
+{
+    playVideo storage:storage ok:ok test:test
+}
+
+if (a > 20)
+{
+    playVideo storage:"let" ok:false test:"like"
+    goToBack
+} else
+{
+    playSound
+}
+
+"我是${name}，你好！\n\c"
+
+jumpTo("test.alice", "ok")
