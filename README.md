@@ -1,2 +1,2 @@
-# alice
+# deedlit
 Simple scripting language

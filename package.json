@@ -1,6 +1,6 @@
 {
-  "name": "alice",
-  "version": "1.0.0",
+  "name": "deedlit",
+  "version": "0.0.1",
   "description": "Simple Scripting Language",
   "main": "index.js",
   "directories": {
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liriliri/alice.git"
+    "url": "git+https://github.com/liriliri/deedlit.git"
   },
   "author": "surunzi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/liriliri/alice/issues"
+    "url": "https://github.com/liriliri/deedlit/issues"
   },
-  "homepage": "https://github.com/liriliri/alice#readme"
+  "homepage": "https://github.com/liriliri/deedlit#readme"
 }
