@@ -1,0 +1,5 @@
+module.exports = {
+    files: ['index.js', 'lib/**/*.js'],
+    output: 'lib/util.js',
+    format: 'commonjs'
+};
