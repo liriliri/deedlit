@@ -1,29 +1,55 @@
-// This is comment.
-
 a = 15
 b = 16
 c = "Text"
-d = [5, "15"]
-e = {name: "ok", like: 5}
-e["name"] = "cool"
-e["like"] = "text"
 
 playCool = playVideo
 
-function playVideo(storage, ok, test=5)
-{
-    playVideo storage:storage ok:ok test:test
-}
+cmd playVideo(storage ok test=5)
+    playVideo storage=storage ok:ok test:test
+end
 
-if (a > 20)
-{
-    playVideo storage:"let" ok:false test:"like"
-    goToBack
-} else
-{
-    playSound
-}
+cmd Cool
+    # I don't think it's a good idea to do this
+    if (a > 20)
+        playVideo storage:"let" ok:false test:"like"
+        goToBack
+    end
+end
 
-"我是${name}，你好！\n\c"
+"我是，你好！\n\c"
 
-jumpTo("test.alice", "ok")
+load: "test.dd"
+
+cmd showChar(src:s="" animate duration:d)
+    # Command content
+end
+
+a = 5 + 2 * (5 + 2)
+
+cmd Jane(dialog figure)
+
+end
+
+showChar src = "img/00.png" animate d=30
+Jane: "I don't understand" "img/jane/smile.png"
+
+if (a > 15)
+    playVideo: "video/test.mpg"
+else if (a > 20)
+    # Do something
+end
+
+i = 0
+loop (i < 5)
+    i = i + 1
+end
+
+"I was not very happy with what you have done."
+
+Jane: "All I can say is nothing."
+Mike: "This is the stupidest thing I ever seen."
+
+testBg = "image/test.jpg"
+
+background: testBg
+
