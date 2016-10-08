@@ -2,8 +2,6 @@ a = 15
 b = 16
 c = "Text"
 
-playCool = playVideo
-
 cmd playVideo(storage ok test=5)
     playVideo storage=storage ok:ok test:test
 end
